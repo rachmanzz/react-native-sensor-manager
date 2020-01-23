@@ -1,0 +1,33 @@
+{
+  "name": "rn-sensor-manager",
+  "title": "React Native Sensor Manager",
+  "version": "1.0.1",
+  "description": "Sensor Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachmanzz/react-native-sensor-manager.git",
+    "baseUrl": "https://github.com/rachmanzz/react-native-sensor-manager"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Muhammad Abdurrahman",
+    "email": "rachman.sd@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
+  }
+}
