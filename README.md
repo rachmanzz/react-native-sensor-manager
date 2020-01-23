@@ -2,16 +2,26 @@
 
 ## Getting started
 
-`$ npm install react-native-sensor-manager --save`
+`$ npm install rn-sensor-manager --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-sensor-manager`
+`$ react-native link rn-sensor-manager`
 
 ## Usage
 ```javascript
-import sensorManagerSensorManager from 'react-native-sensor-manager';
+import { Compass } from 'rn-sensor-manager';
 
 // TODO: What to do with the module?
-sensorManagerSensorManager;
+// Register sensor listener
+Compass.register()
+
+// unreg listener
+Compass.unregister()
+
+// get Compass Azimuth
+Compass.getAzimuth(azimuth => {  })
+
+// get getAcceleration
+Compass.getAcceleration((x, y, z) => {  })
 ```
